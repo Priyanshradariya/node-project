@@ -36,8 +36,3 @@ This project allows users to **create**, **view**, **update**, and **delete** pr
 ---
 
 
-📦 6. Install Dependencies
-npm install
-
-▶️ 7. Run the React App
-npm start
