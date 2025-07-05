@@ -23,7 +23,7 @@ This project allows users to **create**, **view**, **update**, and **delete** pr
 - Add new product
 - Edit existing product
 - Delete product
-- Responsive UI using basic CSS or Bootstrap (optional)
+- Responsive UI using basic CSS 
 
 ---
 
@@ -31,85 +31,11 @@ This project allows users to **create**, **view**, **update**, and **delete** pr
 
 - **Frontend**: React, Axios, JavaScript, CSS
 - **Backend**: Node.js, Express.js, MongoDB (Mongoose), Dotenv, Nodemon
-- **Database**: MongoDB (Local or Atlas)
+- **Database**: MongoDB (Compass)
 
 ---
 
-## 📦 Project Structure
 
-project-root/
-├── backend/
-│ ├── controllers/
-│ │ └── productController.js
-│ ├── models/
-│ │ └── product.js
-│ ├── routes/
-│ │ └── productRoutes.js
-│ ├── .env
-│ ├── server.js
-│ └── package.json
-│
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── ProductForm.js
-│ │ │ └── ProductList.js
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│ └── README.md
-
-yaml
-Copy
-Edit
-
----
-
-## 🚀 Getting Started
-
-### ✅ 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/fullstack-crud-app.git
-cd fullstack-crud-app
-🔧 Backend Setup (Node.js + MongoDB)
-📁 2. Go to Backend Folder
-bash
-Copy
-Edit
-cd backend
-📦 3. Install Dependencies
-bash
-Copy
-Edit
-npm install
-⚙️ 4. Create .env File
-ini
-Copy
-Edit
-DB_URI=mongodb://127.0.0.1:27017/crud_app
-PORT=4000
-▶️ 5. Run the Backend Server
-bash
-Copy
-Edit
-npm run dev
-Backend server will run at: http://localhost:4000
-
-🎨 Frontend Setup (React)
-📁 6. Go to Frontend Folder
-bash
-Copy
-Edit
-cd ../frontend
-📦 7. Install Dependencies
-bash
-Copy
-Edit
-npm install
-▶️ 8. Run the React App
-bash
 Copy
 Edit
 npm start
