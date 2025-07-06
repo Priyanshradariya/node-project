@@ -1,38 +1,55 @@
 # node-project
-product management project using RestApi
+📦 Node.js CRUD REST API (Express + MongoDB)
 
-# 🛠️ Full-Stack Product CRUD App (Node.js + React + MongoDB)
-
-A complete **CRUD web application** built using **Node.js (Express)** for the backend and **React** for the frontend, with **MongoDB** as the database.
-
-This project allows users to **create**, **view**, **update**, and **delete** product records through a responsive and user-friendly interface.
+A simple backend API built with **Node.js**, **Express**, and **MongoDB** to perform CRUD (Create, Read, Update, Delete) operations on products.
 
 ---
 
-## 📁 Features
+## 🚀 Features
 
-### 🔙 Backend (Node.js + Express)
-- RESTful API for Products
-- MongoDB integration via Mongoose
-- Full CRUD operations
-- Environment variables for DB and port
-- Error handling and modular structure
-
-### 🖥️ Frontend (React)
-- Fetch and display product list
-- Add new product
-- Edit existing product
-- Delete product
-- Responsive UI using basic CSS 
+- ✅ Create a new product
+- 📄 Read all products
+- ✏️ Update a product by ID
+- ❌ Delete a product by ID
+- 🔒 Environment-based config using `.env`
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Frontend**: React, Axios, JavaScript, CSS
-- **Backend**: Node.js, Express.js, MongoDB (Mongoose), Dotenv, Nodemon
-- **Database**: MongoDB (Compass)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Other Tools:** dotenv, nodemon
 
 ---
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name/backend
+2. **Install Depandancies**
+   ```bash
+   npm install
+3. **Configure Environment**
+   ```bash
+   DB_URI=mongodb://127.0.0.1:27017/crud_app
+   PORT=4000
+4. **Run Server**
+   ```bash
+   npm start
+
+---
+
+## 🧑‍💻 Author
+Priyansh Radadiya
+GitHub: @Priyanshradariya
+
+
+   
+
+
+
 
 
