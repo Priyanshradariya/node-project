@@ -27,8 +27,8 @@ A simple backend API built with **Node.js**, **Express**, and **MongoDB** to per
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name/backend
+   git clone https://github.com/Priyanshradariya/node-project.git
+   cd node-project/backend
 2. **Install Depandancies**
    ```bash
    npm install
